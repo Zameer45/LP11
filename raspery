@@ -1,0 +1,9 @@
+import Rpi GPIO as GPIO
+import time
+GPIO setmode (GPIUO BOARD)
+GPIO setup (3,GPIO out)
+while true
+   GPIO output (3,true)
+time sleep(1)
+GPIO output (3,false)
+time sleep(1)
